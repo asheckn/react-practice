@@ -30,7 +30,7 @@ const Widget = ({ type }) => {
             break;
         case "order":
                 data = {
-                    title: "order",
+                    title: "Orders",
                     isMoney: false,
                     link:"See all orders",
                     icon:(<ShoppingCartOutlinedIcon className="icon"
@@ -44,13 +44,13 @@ const Widget = ({ type }) => {
                 break;
         case "earnings":
                 data = {
-                        title: "earnings",
+                        title: "Earnings",
                         isMoney: true,
                         link:"See all Earnings",
                         icon:(<PaidOutlinedIcon className="icon"
                         style={{
                             color: "green",
-                            backgroundColor: "green",
+                            backgroundColor: "rgba(0,255,0,0.2)",
                         }}
                         />),
                     };
